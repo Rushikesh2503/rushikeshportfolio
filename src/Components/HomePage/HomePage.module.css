@@ -1,0 +1,63 @@
+.banner {
+  min-height: calc(100vh - 65.39px);
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f15025+100 */
+  background: rgb(255, 255, 255); /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(37, 183, 241) 100%
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(37, 183, 241) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(37, 183, 241) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f15025',GradientType=1 ); /* IE6-9 */
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.banner_title {
+  margin-top: -7rem;
+}
+.banner_title h3 {
+  font-size: 2rem;
+  text-shadow: 2px 2px 0px rgba(150, 150, 150, 1);
+}
+.banner_title h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 0px rgba(150, 150, 150, 1);
+}
+.banner_title p {
+  letter-spacing: 0.2rem;
+  margin-bottom: 1.5rem;
+  color: var(--darkGray);
+}
+.banner_img {
+  display: none;
+}
+@media screen and (min-width: 825px) {
+  .banner {
+    justify-content: start;
+  }
+  .banner_title {
+    margin-left: 3rem;
+  }
+  .banner_img {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+    width: 700px;
+    height: 475px;
+  }
+}
