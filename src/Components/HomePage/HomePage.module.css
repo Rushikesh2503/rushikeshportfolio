@@ -1,6 +1,5 @@
 .banner {
-  min-height: calc(100vh - 65.39px);
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f15025+100 */
+  min-height: calc(100vh - 10px);
   background: rgb(255, 255, 255); /* Old browsers */
   background: -moz-linear-gradient(
     left,
@@ -17,7 +16,6 @@
     rgba(255, 255, 255, 1) 0%,
     rgb(37, 183, 241) 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f15025',GradientType=1 ); /* IE6-9 */
   display: grid;
   align-items: center;
   justify-content: center;
@@ -25,21 +23,53 @@
   position: relative;
 }
 
+@keyframes move {
+  0%,
+  25% {
+    transform: translateX(-100%);
+    left: 0%;
+  }
+  75%,
+  100% {
+    transform: translateX(0%);
+    left: 100%;
+  }
+}
+.home_know_more_button {
+  width: 150px;
+  height: 37px;
+  border-radius: 30px;
+  background-color: navy;
+  color: chartreuse;
+  border: none;
+}
+.home_know_more_button:hover {
+  background: chartreuse;
+  color: navy;
+  z-index: -1;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
 .banner_title {
   margin-top: -7rem;
 }
 .banner_title h3 {
   font-size: 2rem;
-  text-shadow: 2px 2px 0px rgba(150, 150, 150, 1);
+  font-family: "Noto Serif", sans-serif;
+  margin-bottom: 5px;
 }
 .banner_title h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
-  text-shadow: 2px 2px 0px rgba(150, 150, 150, 1);
+  font-family: "Noto Serif", sans-serif;
+  animation: 1s linear 0s alternate move;
 }
 .banner_title p {
   letter-spacing: 0.2rem;
   margin-bottom: 1.5rem;
+  font-family: "Noto Serif", sans-serif;
+  animation: 1s linear 0s alternate move;
   color: var(--darkGray);
 }
 .banner_img {
@@ -58,6 +88,6 @@
     bottom: 0;
     right: 0%;
     width: 700px;
-    height: 475px;
+    height: 555px;
   }
 }
