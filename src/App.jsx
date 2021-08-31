@@ -1,6 +1,7 @@
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import Contact from './Components/Contact/Contact';
+import ContactM from './Pages/Contact';
 import Home from './Pages/Home';
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
           <Contact/>
         </Route>
         <Route exact path="/contact">
-          <Contact/>
+          <ContactM/>
         </Route>
       </Switch>
     </div>
