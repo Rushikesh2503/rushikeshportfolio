@@ -1,6 +1,6 @@
 .banner {
   min-height: calc(100vh - 10px);
-  background: rgb(255, 255, 255); /* Old browsers */
+  background: rgb(255, 255, 255);
   background: -moz-linear-gradient(
     left,
     rgba(255, 255, 255, 1) 0%,
@@ -23,24 +23,16 @@
   position: relative;
 }
 
-@keyframes move {
-  0%,
-  25% {
-    transform: translateX(-100%);
-    left: 0%;
-  }
-  75%,
-  100% {
-    transform: translateX(0%);
-    left: 100%;
-  }
-}
 .home_know_more_button {
   width: 150px;
   height: 37px;
   border-radius: 30px;
   background-color: navy;
-  color: chartreuse;
+  color: blanchedalmond;
+  margin-top: 30px;
+  padding: 10px 0;
+
+  font-family: "Noto Serif", sans-serif;
   border: none;
 }
 .home_know_more_button:hover {
@@ -74,6 +66,11 @@
 }
 .banner_img {
   display: none;
+}
+@media screen and (max-width: 825px) {
+  .banner {
+    justify-content: center;
+  }
 }
 @media screen and (min-width: 825px) {
   .banner {

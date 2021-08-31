@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { MdClose, MdMenu } from "react-icons/md";
 
+
+
 const NavStyles = styled.nav`
   position: fixed;
   z-index: 100;
@@ -102,6 +104,7 @@ export default function Navbar() {
   const [showNav, setShowNav] = useState(false);
   return (
     <NavStyles>
+      
       <div
         className="mobile-menu-icon"
         onClick={() => setShowNav(!showNav)}
@@ -113,6 +116,7 @@ export default function Navbar() {
       </div>
 
       <ul className={!showNav ? "navItems hide-item" : "navItems"}>
+      
         <div
           className="closeNavIcon"
           onClick={() => setShowNav(!showNav)}
