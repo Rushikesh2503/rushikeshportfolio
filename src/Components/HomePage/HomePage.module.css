@@ -21,26 +21,28 @@
   justify-content: center;
   text-transform: capitalize;
   position: relative;
+  height: 100vh;
 }
 
 .home_know_more_button {
   width: 150px;
   height: 37px;
-  border-radius: 30px;
-  background-color: navy;
-  color: blanchedalmond;
+  border-radius: 7px;
+  background-color: rgb(3, 3, 36);
+  color: rgb(209, 181, 97);
+  font-weight: 700;
   margin-top: 30px;
   padding: 10px 0;
-
   font-family: "Noto Serif", sans-serif;
   border: none;
 }
 .home_know_more_button:hover {
-  background: chartreuse;
-  color: navy;
+  background: rgb(209, 181, 97);
+  color: rgb(6, 6, 48);
   z-index: -1;
   transition: all 0.3s ease;
   cursor: pointer;
+  border-radius: 30px;
 }
 
 .banner_title {
@@ -72,7 +74,7 @@
     justify-content: center;
   }
 }
-@media screen and (min-width: 825px) {
+@media screen and (min-width: 1100px) {
   .banner {
     justify-content: start;
   }

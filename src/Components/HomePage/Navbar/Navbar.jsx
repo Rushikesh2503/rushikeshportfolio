@@ -12,7 +12,7 @@ const NavStyles = styled.nav`
   left: 0;
   width: 100%;
   padding: 1rem 0;
-  background-color: #12100e;
+  background-color: #000000;
 
   ul {
     max-width: 1200px;
@@ -26,8 +26,8 @@ const NavStyles = styled.nav`
 
       transition: 0.3s ease background-color;
       &:hover {
-        background-color: #4491cf;
-        color:black;
+        /* background-color: navy; */
+        color:rgb(209, 181, 97);
       }
     }
     a {
@@ -35,9 +35,13 @@ const NavStyles = styled.nav`
       font-family: "RobotoMono Regular";
       padding: 1rem 2rem;
       font-size: 1.5rem;
-      color: white;
+      color: rgb(209, 181, 97);;
       outline: none;
       text-decoration:none;
+    
+      &:hover {
+        color:chartreuse;
+      }
     }
     .active {
       text-decoration:underline;
@@ -70,19 +74,20 @@ const NavStyles = styled.nav`
     .navItems {
       --top: 1rem;
       transition: 0.3s ease transform;
-      background-color: var(--deep-dark);
-      padding: 2rem;
-      width: 90%;
-      max-width: 300px;
+      background-color: black;
+      width: 100%;
+      padding:30px 0;
+      max-width: 100%;
       border-radius: 12px;
       position: absolute;
-      background-color:gray;
-      right: 1rem;
-      top: var(--top);
+      background-color:black;
+      top: 1rem;
       .closeNavIcon {
         display: block;
         width: 3rem;
         font-size:30px;
+        color:white;
+        padding:5px 2px;
         margin: 0 0 0 auto;
         cursor: pointer;
         * {
@@ -170,6 +175,10 @@ export default function Navbar() {
           >
             Contact
           </NavLink>
+        </li>
+        <li>
+           <a href="https://drive.google.com/file/d/1PkQNrkXJszXo9Xg74Q9j6IiwNSoqJTOJ/view?usp=sharing" target="_blank">Resume</a>
+          
         </li>
       </ul>
       
