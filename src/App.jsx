@@ -1,6 +1,5 @@
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
-import Contact from './Components/Contact/Contact';
 import About from './Pages/About';
 import ContactM from './Pages/Contact';
 import Home from './Pages/Home';
