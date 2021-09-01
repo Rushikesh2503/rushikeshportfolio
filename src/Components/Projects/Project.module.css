@@ -1,0 +1,87 @@
+.Maincontainer {
+  background: linear-gradient(to right, rgb(0, 217, 255) 0%, rgb(0, 0, 0) 100%);
+  min-height: 84vh;
+  max-height: 100%;
+  padding: 100px 0;
+  text-align: center;
+}
+.gridss {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 30px 0;
+  width: 90%;
+  min-height: 250px;
+  margin: 80px auto;
+}
+.gridss:first-child {
+  margin: 20px auto;
+}
+.img {
+  width: 450px;
+  height: 100%;
+  border-radius: 20px;
+}
+.leftDiv {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+}
+.rightDiv {
+  width: 50%;
+  margin: auto;
+  text-align: right;
+}
+.color {
+  color: #d1b561;
+  text-transform: uppercase;
+}
+.downDiv {
+  width: 200px;
+  margin: auto;
+}
+.rightDivSub > p {
+  color: blanchedalmond;
+  letter-spacing: 2px;
+}
+.rightDivSub > h2,
+.rightDivSub > h5,
+.rightDivSub > p {
+  margin: 20px 0;
+}
+
+.leftDivSub > p {
+  color: blanchedalmond;
+  letter-spacing: 2px;
+}
+.leftDivSub > h2,
+.leftDivSub > h5,
+.leftDivSub > p {
+  margin: 20px 0;
+}
+.size {
+  font-size: 30px;
+  margin: 0 20px;
+  color: rgb(0, 0, 0);
+}
+.size:hover {
+  color: #d1b561;
+}
+@media (max-width: 958px) {
+  .gridss {
+    grid-template-columns: auto;
+    width: 90%;
+  }
+  .leftDiv {
+    width: 90%;
+    text-align: center;
+  }
+  .rightDiv {
+    width: 90%;
+    text-align: center;
+  }
+  .img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+}

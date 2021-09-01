@@ -1,8 +1,10 @@
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import Contact from './Components/Contact/Contact';
+import About from './Pages/About';
 import ContactM from './Pages/Contact';
 import Home from './Pages/Home';
+import Projects from './Pages/Projects';
 
 function App() {
   return (
@@ -12,10 +14,10 @@ function App() {
           <Home/>
         </Route>
         <Route exact path="/about">
-          <Contact/>
+          <About/>
         </Route>
         <Route exact path="/projects">
-          <Contact/>
+          <Projects/>
         </Route>
         <Route exact path="/contact">
           <ContactM/>

@@ -12,8 +12,10 @@ const NavStyles = styled.nav`
   left: 0;
   width: 100%;
   padding: 1rem 0;
+  display:flex;
   background-color: #000000;
 
+  
   ul {
     max-width: 1200px;
     margin: 0 auto;
@@ -35,7 +37,7 @@ const NavStyles = styled.nav`
       font-family: "RobotoMono Regular";
       padding: 1rem 2rem;
       font-size: 1.5rem;
-      color: rgb(209, 181, 97);;
+      color: rgb(209, 181, 97);
       outline: none;
       text-decoration:none;
     
@@ -55,6 +57,7 @@ const NavStyles = styled.nav`
     font-size:30px;
     cursor: pointer;
     display: none;
+    color:rgb(209, 181, 97);
     outline: none;
     * {
       pointer-events: none;
@@ -63,13 +66,22 @@ const NavStyles = styled.nav`
   .navItems .closeNavIcon {
     display: none;
   }
-  @media only screen and (max-width: 768px) {
+  .logoR{
+    display:flex;
+    width:150px;
+    height:100%;
+    margin-left:20px;
+  }
+  @media only screen and (max-width: 958px) {
     padding: 0;
     .hide-item {
       transform: translateY(calc(-100% - var(--top)));
     }
     .mobile-menu-icon {
       display: block;
+    }
+    .logoR{
+      display:none;
     }
     .navItems {
       --top: 1rem;
@@ -86,7 +98,7 @@ const NavStyles = styled.nav`
         display: block;
         width: 3rem;
         font-size:30px;
-        color:white;
+        color:rgb(209, 181, 97);
         padding:5px 2px;
         margin: 0 0 0 auto;
         cursor: pointer;
@@ -109,7 +121,7 @@ export default function Navbar() {
   const [showNav, setShowNav] = useState(false);
   return (
     <NavStyles>
-      
+      <img src="https://i.ibb.co/hVtPNsV/688a840532bb5d44a8c33fa381797433-removebg-preview.png" className="logoR" alt="688a840532bb5d44a8c33fa381797433-removebg-preview" border="0"/>
       <div
         className="mobile-menu-icon"
         onClick={() => setShowNav(!showNav)}
@@ -177,7 +189,7 @@ export default function Navbar() {
           </NavLink>
         </li>
         <li>
-           <a href="https://drive.google.com/file/d/1PkQNrkXJszXo9Xg74Q9j6IiwNSoqJTOJ/view?usp=sharing" target="_blank">Resume</a>
+           <a href="https://drive.google.com/file/d/10NaMwDXf2K1T5wcMqr4FeDVj5mI8oHVG/view?usp=sharing" target="_blank">Resume <i class="fas fa-download"></i></a>
           
         </li>
       </ul>

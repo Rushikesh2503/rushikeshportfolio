@@ -7,7 +7,7 @@ const animation = keyframes`
     0% {opacity:0}
     25% {opacity:1}
     75% {opacity:1}
-    100% {opacity:0}
+    100% {opacity:1}
 `
 const animation2 = keyframes`
    0% {
@@ -40,12 +40,14 @@ const slideInAnimation = keyframes`${slideInDown}`;
 const slideOutAnimation = keyframes`${slideOutUp}`;
 
 const Wrapper = styled.span`
-    opacity:0;
+    opacity:1;
     animation-name:${animation};
     animation-duration:8s;
     animation-fill-mode:forwards;
     animation-iteration-count:infinite;
     font-size:50px;
+    color:rgb(4, 5, 34);
+    text-shadow: 2px 1px rgb(209, 181, 97);
 `
 const Wrapper3 = styled.span`
     animation-name:${animation2};
@@ -54,14 +56,15 @@ const Wrapper3 = styled.span`
     animation-iteration-count:infinite;
     font-size:22px;
 `
-const Wrapper2 =  styled.div`
+const Wrapper2 = styled.div`
+  font-size:22px;
   animation: 0.5s ${slideInAnimation}, 0.5s ${slideOutAnimation};;
 `;
 const AnimationHead = () => {
     return (
         <>
             <h1><Wrapper>I'm Rushikesh Bambadkar</Wrapper></h1>
-            <h4><Wrapper3>Full Stack web developer</Wrapper3></h4>
+            <h4><Wrapper2>Full Stack web developer</Wrapper2></h4>
         </>
     )
 }

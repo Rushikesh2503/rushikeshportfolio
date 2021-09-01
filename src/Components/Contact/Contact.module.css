@@ -29,11 +29,7 @@
     rgba(255, 255, 255, 1) 0%,
     rgb(37, 183, 241) 100%
   );
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 1) 0%,
-    rgb(37, 183, 241) 100%
-  );
+  background: linear-gradient(to right, rgb(0, 217, 255) 0%, rgb(0, 0, 0) 100%);
 }
 .bodyCont > ul {
   position: absolute;
@@ -59,7 +55,7 @@
 }
 .bodyCont > ul > li > a > .fa {
   font-size: 50px;
-  color: #333;
+  color: rgb(51, 51, 51);
   line-height: 80px;
   transition: 0.5s;
   padding-right: 14px;
@@ -112,7 +108,7 @@
 }
 .bodyli2 > a:hover {
   transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
-  box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+  box-shadow: -50px 50px 50px rgba(241, 208, 59, 0.5);
 }
 .bodyli2:hover .fa {
   color: #fff;
@@ -125,6 +121,7 @@
 .bodyli2:hover a {
   background: #dd4b39;
   color: #fff;
+  transition: 1.2s;
 }
 .bodyli2:hover a::after {
   background: rgb(255, 255, 103);
@@ -135,7 +132,7 @@
 
 .bodyli1 > a:hover {
   transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
-  box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+  box-shadow: -80px 50px 50px rgba(0, 0, 0, 0.5);
 }
 .bodyli1:hover .fa {
   color: #fff;
@@ -147,6 +144,7 @@
 .bodyli1:hover a {
   background: rgba(0, 0, 0, 1);
   color: #fff;
+  transition: 1.2s;
 }
 .bodyli1:hover a::before {
   background: rgba(0, 0, 0, 0.6);
@@ -157,7 +155,7 @@
 
 .bodyli3 > a:hover {
   transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
-  box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+  box-shadow: -80px 50px 50px rgba(10, 102, 194, 0.5);
 }
 .bodyli3:hover .fa {
   color: #fff;
@@ -168,6 +166,7 @@
 .bodyli3:hover a {
   background: rgba(10, 102, 194, 1);
   color: #fff;
+  transition: 1.2s;
 }
 .bodyli3:hover a::before {
   background: rgba(10, 102, 194, 0.6);
@@ -178,7 +177,7 @@
 
 .bodyli4 > a:hover {
   transform: rotate(-30deg) skew(25deg) translate(20px, -15px);
-  box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+  box-shadow: -50px 50px 50px rgba(8, 255, 243, 0.5);
 }
 .bodyli4:hover .fa {
   color: #fff;
@@ -190,6 +189,7 @@
 .bodyli4:hover a {
   background: rgb(17, 146, 135);
   color: #fff;
+  transition: 1.2s;
 }
 .bodyli4:hover a::before {
   background: rgba(0, 253, 232, 0.7);

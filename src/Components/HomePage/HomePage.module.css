@@ -11,11 +11,7 @@
     rgba(255, 255, 255, 1) 0%,
     rgb(37, 183, 241) 100%
   );
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 1) 0%,
-    rgb(37, 183, 241) 100%
-  );
+  background: linear-gradient(to right, rgb(0, 217, 255) 0%, rgb(0, 0, 0) 100%);
   display: grid;
   align-items: center;
   justify-content: center;
@@ -86,7 +82,7 @@
     position: absolute;
     bottom: 0;
     right: 0%;
-    width: 700px;
+    width: 650px;
     height: 555px;
   }
 }
