@@ -7,7 +7,7 @@ import { MdClose, MdMenu } from "react-icons/md";
 
 const NavStyles = styled.nav`
   position: fixed;
-  z-index: 100;
+  z-index: 1000;
   top: 0;
   left: 0;
   width: 100%;
@@ -189,7 +189,7 @@ export default function Navbar() {
           </NavLink>
         </li>
         <li>
-           <a href="https://drive.google.com/file/d/10NaMwDXf2K1T5wcMqr4FeDVj5mI8oHVG/view?usp=sharing" target="_blank">Resume <i class="fas fa-download"></i></a>
+           <a href="https://drive.google.com/file/d/10NaMwDXf2K1T5wcMqr4FeDVj5mI8oHVG/view?usp=sharing" >Resume <i class="fas fa-download"></i></a>
           
         </li>
       </ul>

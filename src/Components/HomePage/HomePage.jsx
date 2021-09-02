@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 import AnimatedText from './AnimatedText';
 import AnimationHead from './AnimationHead';
 import styles from './HomePage.module.css';
+import Navbar from './Navbar/Navbar';
 
 const HomePage = () => {
     return (
-        <div>
+      <div>
         <section className={styles.banner}>
         <div className={styles.banner_title}>
             <h3><AnimatedText /></h3>

@@ -10,11 +10,13 @@
     "react-animations": "^1.0.0",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
+    "react-particles-js": "^3.5.3",
     "react-router-dom": "^5.2.1",
     "react-scripts": "4.0.3",
     "react-typing": "^1.0.0",
     "styled-components": "^5.3.1",
     "styled-tools": "^1.7.2",
+    "tsparticles": "^1.34.0",
     "typewriter-effect": "^2.18.0",
     "vercel": "^23.1.2",
     "web-vitals": "^1.1.2"
