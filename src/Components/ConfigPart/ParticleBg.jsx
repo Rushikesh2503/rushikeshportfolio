@@ -1,6 +1,6 @@
 import React from "react";
 import Particles from "react-particles-js";
-import ParticlesConfig from "./ConfigPart/ParticleConfig";
+import ParticlesConfig from "./ParticleConfig";
 
 export default function ParticleBg() {
   return <Particles
