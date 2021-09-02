@@ -7,8 +7,18 @@ const Skills = () => {
         <>
         <Navbar/>
 		<div className={styles.Maincontainer}>
+			<h1 className={styles.heading}>About Me</h1>
+			<div className={styles.borderBottom} />
+			<div className={styles.container1}>
+					<div>
+						<h3>" Everything you have ever wanted is one step outside your comfort zone. "</h3>
+					</div>
+					<div>
+						<p>I am currently learning full stack web development at Masai School. I am passionate about solving real world problems and actively looking for opportunities in the field of web development and software engineering.</p>
+					</div>
+			</div>
 			<h1 className={styles.heading}>
-				Skills
+				Skills & Interests
 			</h1>
 			<div className={styles.borderBottom} />
 			<div className={styles.container}>
@@ -33,12 +43,16 @@ const Skills = () => {
 					<span>React</span>
 				</div>
 				<div className={styles.logoWrapper}>
+					<i class="devicon-materialui-plain colored"></i>
+					<span>Material UI</span>
+				</div>
+				{/* <div className={styles.logoWrapper}>
 					<i
 						style={{ color: '#7248B6' }}
 						className='devicon-redux-original'
 					/>
 					<span>Redux</span>
-				</div>
+				</div> */}
 				<div className={styles.logoWrapper}>
 					<i
 						style={{ color: '#509941' }}

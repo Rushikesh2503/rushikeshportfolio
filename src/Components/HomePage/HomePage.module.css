@@ -20,6 +20,7 @@
 }
 
 .home_know_more_button {
+  display: absolute;
   width: 150px;
   height: 37px;
   border-radius: 7px;
@@ -34,7 +35,6 @@
 .home_know_more_button:hover {
   background: rgb(209, 181, 97);
   color: rgb(6, 6, 48);
-  z-index: -1;
   transition: all 0.3s ease;
   cursor: pointer;
   border-radius: 30px;
@@ -42,6 +42,7 @@
 
 .banner_title {
   margin-top: -7rem;
+  z-index: 5000;
 }
 .banner_title h3 {
   font-size: 2rem;
