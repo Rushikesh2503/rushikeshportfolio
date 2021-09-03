@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../HomePage/Navbar/Navbar';
+import Achievemnts from './Achievements';
 import styles from './Skills.module.css';
 import TimeLine from './TimeLine';
 
@@ -14,7 +15,7 @@ const Skills = () => {
 						<h3>"Life always begins with one step outside of your comfort zone."</h3>
 					</div>
 					<div>
-						<p>I am currently learning full stack web development at Masai School. I am passionate about solving real world problems and actively looking for opportunities in the field of web development and software engineering.</p>
+						<p>Energetic, highly motivated and passionate Developer.Hardworking Individual with a great learning curve.Loves to solve real life problems .Looking for an opportunity to enhance knowledge and skills.</p>
 					</div>
 			</div>
 			<h1 className={styles.heading}>
@@ -80,7 +81,21 @@ const Skills = () => {
 				<div className={styles.container1}>
 					<TimeLine />
 				</div>
-				
+				<h1 className={styles.heading}>Achievements & Volunteer</h1>
+				<div className={styles.container1}>
+					<Achievemnts />
+				</div>
+				<h1 className={styles.heading}>Interest</h1>
+				<div className={styles.container1}>
+					<div className={styles.inter}>
+						<h2>
+						<i class="fas fa-microphone-alt"></i>	Hosting an Events
+						</h2>
+						<h2>
+						<i class="fas fa-film"></i>	Acting
+						</h2>
+					</div>
+				</div>
 
             </div>
             </>

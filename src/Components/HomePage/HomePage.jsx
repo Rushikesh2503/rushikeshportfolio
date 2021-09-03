@@ -14,8 +14,8 @@ const HomePage = () => {
             <div>
             <AnimationHead />
             </div>
-            <Link to="/about">
-              <button class={styles.home_know_more_button}><span>Know More</span><span> </span><span><i class="fa fa-arrow-right" aria-hidden="true"></i></span>
+            <Link to="/contact">
+              <button class={styles.home_know_more_button}><span>Contact Me</span><span> </span><span><i class="fas fa-external-link-alt"></i></span>
               </button>
             </Link>
         </div>

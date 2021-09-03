@@ -20,7 +20,11 @@ const useStyles = makeStyles((theme) => ({
   paper: {
         padding: '6px 16px',
         textAlign: "center",
-        background:"#4deff5e2"
+        border: "2px solid #ebbd5a",
+        background: "none",
+        color:"white",
+        textTransform:"uppercase"
+
   },
   secondaryTail: {
     backgroundColor: theme.palette.secondary.main,

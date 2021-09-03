@@ -58,8 +58,20 @@ const Wrapper3 = styled.span`
 `
 const Wrapper2 = styled.div`
   font-size:22px;
-  animation: 0.5s ${slideInAnimation}, 0.5s ${slideOutAnimation};
+  animation: 1s linear 0s alternate move;
   color:chartreuse;
+  @keyframes move {
+  0%,
+  25% {
+    transform: translateX(-100%);
+    left: 0%;
+  }
+  75%,
+  100% {
+    transform: translateX(0%);
+    left: 100%;
+  }
+}
 `;
 const AnimationHead = () => {
     return (
