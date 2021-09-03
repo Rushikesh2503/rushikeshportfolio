@@ -42,7 +42,8 @@ const NavStyles = styled.nav`
       text-decoration:none;
     
       &:hover {
-        color:chartreuse;
+        /* color:chartreuse; */
+        color:white ;
       }
     }
     .active {

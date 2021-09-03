@@ -65,7 +65,7 @@
 .size {
   font-size: 30px;
   margin: 0 20px;
-  color: rgb(34, 210, 233);
+  color: rgb(255, 255, 255);
 }
 .size:hover {
   color: #d1b561;
