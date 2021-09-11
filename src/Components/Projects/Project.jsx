@@ -104,7 +104,7 @@ const Project = () => {
                 </a>
                 <a
                   className={styled.size}
-                  href="https://rushikesh2503.github.io/zoomCarProj/"
+                  href="https://compassionate-curie-bac97b.netlify.app/"
                 >
                  <i class="fas fa-external-link-alt"></i>
                 </a>
