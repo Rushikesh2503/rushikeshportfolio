@@ -34,12 +34,12 @@ const Project = () => {
                   {" "}
                   <i class="fab fa-github"></i>
                 </a>
-                {/* <a
+                <a
                   className={styled.size}
-                  href="https:/"
+                  href="https://skyscanner-mu.vercel.app/"
                 >
                  <i class="fas fa-external-link-alt"></i>
-                </a> */}
+                </a>
               </div>
             </div>
           </div>
@@ -68,12 +68,12 @@ const Project = () => {
                 >
                   <i class="fab fa-github"></i>
                 </a>
-                {/* <a
+                <a
                   className={styled.size}
-                  href="https://"
+                  href="https://startenginerb-rushikesh2503.vercel.app/"
                 >
                  <i class="fas fa-external-link-alt"></i>
-                </a> */}
+                </a>
               </div>
             </div>
           </div>
@@ -102,12 +102,12 @@ const Project = () => {
                 >
                   <i class="fab fa-github"></i>
                 </a>
-                {/* <a
+                <a
                   className={styled.size}
-                  href="https:/"
+                  href="https://rushikesh2503.github.io/zoomCarProj/"
                 >
                  <i class="fas fa-external-link-alt"></i>
-                </a> */}
+                </a>
               </div>
             </div>
           </div>
@@ -138,12 +138,12 @@ const Project = () => {
                   {" "}
                   <i class="fab fa-github"></i>
                 </a>
-                {/* <a
+                <a
                   className={styled.size}
-                  href="https://"
+                  href="https://rushikesh2503.github.io/random-quotes/"
                 >
                  <i class="fas fa-external-link-alt"></i>
-                </a> */}
+                </a>
               </div>
             </div>
           </div>
