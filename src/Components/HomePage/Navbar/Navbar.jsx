@@ -3,8 +3,6 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { MdClose, MdMenu } from "react-icons/md";
 
-
-
 const NavStyles = styled.nav`
   position: fixed;
   z-index: 5500;
@@ -12,10 +10,9 @@ const NavStyles = styled.nav`
   left: 0;
   width: 100%;
   padding: 1rem 0;
-  display:flex;
+  display: flex;
   background-color: #000000;
 
-  
   ul {
     max-width: 1200px;
     margin: 0 auto;
@@ -23,13 +20,13 @@ const NavStyles = styled.nav`
     text-align: center;
     li {
       display: inline-block;
-      color:white;
+      color: white;
       border-radius: 8px;
 
       transition: 0.3s ease background-color;
       &:hover {
         /* background-color: navy; */
-        color:rgb(209, 181, 97);
+        color: rgb(209, 181, 97);
       }
     }
     a {
@@ -39,15 +36,15 @@ const NavStyles = styled.nav`
       font-size: 1.5rem;
       color: rgb(209, 181, 97);
       outline: none;
-      text-decoration:none;
-    
+      text-decoration: none;
+
       &:hover {
         /* color:chartreuse; */
-        color:white ;
+        color: white;
       }
     }
     .active {
-      text-decoration:underline;
+      text-decoration: underline;
     }
   }
   .mobile-menu-icon {
@@ -55,10 +52,10 @@ const NavStyles = styled.nav`
     right: 1rem;
     top: 1rem;
     width: 50px;
-    font-size:30px;
+    font-size: 30px;
     cursor: pointer;
     display: none;
-    color:rgb(209, 181, 97);
+    color: rgb(209, 181, 97);
     outline: none;
     * {
       pointer-events: none;
@@ -67,11 +64,11 @@ const NavStyles = styled.nav`
   .navItems .closeNavIcon {
     display: none;
   }
-  .logoR{
-    display:flex;
-    width:150px;
-    height:100%;
-    margin-left:20px;
+  .logoR {
+    display: flex;
+    width: 150px;
+    height: 100%;
+    margin-left: 20px;
   }
   @media only screen and (max-width: 958px) {
     padding: 0;
@@ -81,26 +78,26 @@ const NavStyles = styled.nav`
     .mobile-menu-icon {
       display: block;
     }
-    .logoR{
-      display:none;
+    .logoR {
+      display: none;
     }
     .navItems {
       --top: 1rem;
       transition: 0.3s ease transform;
       background-color: black;
       width: 100%;
-      padding:30px 0;
+      padding: 30px 0;
       max-width: 100%;
       border-radius: 12px;
       position: absolute;
-      background-color:black;
+      background-color: black;
       top: 1rem;
       .closeNavIcon {
         display: block;
         width: 3rem;
-        font-size:30px;
-        color:rgb(209, 181, 97);
-        padding:5px 2px;
+        font-size: 30px;
+        color: rgb(209, 181, 97);
+        padding: 5px 2px;
         margin: 0 0 0 auto;
         cursor: pointer;
         * {
@@ -109,7 +106,7 @@ const NavStyles = styled.nav`
       }
       li {
         display: block;
-        color:navy;
+        color: navy;
         margin-bottom: 1rem;
       }
       a {
@@ -122,7 +119,12 @@ export default function Navbar() {
   const [showNav, setShowNav] = useState(false);
   return (
     <NavStyles>
-      <img src="https://i.ibb.co/hVtPNsV/688a840532bb5d44a8c33fa381797433-removebg-preview.png" className="logoR" alt="688a840532bb5d44a8c33fa381797433-removebg-preview" border="0"/>
+      <img
+        src="https://i.ibb.co/hVtPNsV/688a840532bb5d44a8c33fa381797433-removebg-preview.png"
+        className="logoR"
+        alt="688a840532bb5d44a8c33fa381797433-removebg-preview"
+        border="0"
+      />
       <div
         className="mobile-menu-icon"
         onClick={() => setShowNav(!showNav)}
@@ -134,7 +136,6 @@ export default function Navbar() {
       </div>
 
       <ul className={!showNav ? "navItems hide-item" : "navItems"}>
-      
         <div
           className="closeNavIcon"
           onClick={() => setShowNav(!showNav)}
@@ -190,11 +191,11 @@ export default function Navbar() {
           </NavLink>
         </li>
         <li>
-           <a href="https://drive.google.com/file/d/1TW-YSiTUxEZUS8KhVyyDO5zI9SIrNFp-/view?usp=sharing" >Resume <i class="fas fa-download"></i></a>
-          
+          <a href="https://drive.google.com/file/d/1YSV3q4aH18y5TxpHx6IIuKucLkUYYiEr/view">
+            Resume <i class="fas fa-download"></i>
+          </a>
         </li>
       </ul>
-      
     </NavStyles>
   );
 }
