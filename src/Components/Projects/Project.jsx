@@ -127,6 +127,12 @@ const Project = () => {
                 >
                   <i class="fas fa-external-link-alt"></i>
                 </a>
+                <a
+                  className={styled.size}
+                  href="https://www.linkedin.com/posts/rushikeshbambadkar_masaischool-html5-webdevelopment-activity-6813666958974734336-97aV"
+                >
+                  <i class="fas fa-play"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -159,6 +165,12 @@ const Project = () => {
                   href="https://startenginerb-rushikesh2503.vercel.app/"
                 >
                   <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a
+                  className={styled.size}
+                  href="https://www.linkedin.com/posts/rushikeshbambadkar_masaischool-reactjsdevelopment-reactjs-activity-6825462526059409408-R2NQ"
+                >
+                  <i class="fas fa-play"></i>
                 </a>
               </div>
             </div>
@@ -193,6 +205,12 @@ const Project = () => {
                   href="https://rushikesh2503.github.io/random-quotes/"
                 >
                   <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a
+                  className={styled.size}
+                  href="https://www.linkedin.com/posts/rushikeshbambadkar_thankyou-thankyoumasaischool-masai-activity-6814824815342563329-pMo4"
+                >
+                  <i class="fas fa-play"></i>
                 </a>
               </div>
             </div>
