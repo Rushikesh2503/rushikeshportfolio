@@ -11,6 +11,51 @@ const Project = () => {
           <div className={styled.leftDiv}>
             <img
               className={styled.img}
+              src="https://camo.githubusercontent.com/cf19c0ae28e1c677cff362e93f9469e7365308eef96b4add59f010c2a6148786/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f7273627273622f696d6167652f75706c6f61642f76313633353038313334312f686f6d65706167655f666b6e3135792e706e67"
+              alt="logo"
+            />
+          </div>
+          <div className={styled.rightDiv}>
+            <div className={styled.rightDivSub}>
+              <h2 className={styled.color}>StreamLine</h2>
+              <p>
+                StreamLine provides opportunities to complete planning, selling
+                tickets, managing, and hosting the show for artists.
+              </p>
+              <h5 className={styled.color}>
+                {" "}
+                NodeJS || MongoDB || ExpressJS || React || Redux || JavaScript
+                || Material UI
+              </h5>
+              <div className={styled.downDiv}>
+                <a
+                  className={styled.size}
+                  href="https://github.com/Rushikesh2503/HighDash_Hackathon"
+                >
+                  {" "}
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  className={styled.size}
+                  href="https://streamline-acp24.vercel.app/"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a
+                  className={styled.size}
+                  href="https://www.linkedin.com/posts/rushikeshbambadkar_48hours-highdash-activity-6853704450356473856-URZd"
+                >
+                  <i class="fas fa-play"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className={styled.gridss}>
+          <div className={styled.leftDiv}>
+            <img
+              className={styled.img}
               src="https://i.ibb.co/3fQhf7m/skyscaneer-Pic.png"
               alt="logo"
             />
@@ -38,7 +83,47 @@ const Project = () => {
                   className={styled.size}
                   href="https://skyscanner-mu.vercel.app/"
                 >
-                 <i class="fas fa-external-link-alt"></i>
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a
+                  className={styled.size}
+                  href="https://www.linkedin.com/posts/rushikeshbambadkar_masaischool-reactjsdevelopment-reactjs-activity-6839753756347920385-jwCd"
+                >
+                  <i class="fas fa-play"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className={styled.gridss}>
+          <div className={styled.leftDiv}>
+            <img
+              className={styled.img}
+              src="https://user-images.githubusercontent.com/82999542/122533925-ac781500-d03f-11eb-94a6-db56adf13d0a.png"
+              alt="logo"
+            />
+          </div>
+          <div className={styled.rightDiv}>
+            <div className={styled.rightDivSub}>
+              <h2 className={styled.color}>Zoomcar Website</h2>
+              <p>
+                Self drive cars from Zoomcar have given customers more control,
+                privacy, and freedom. Zoomcar allows you to book a car.
+              </p>
+              <h5 className={styled.color}>CSS || HTML || JavaScript</h5>
+              <div className={styled.downDiv}>
+                <a
+                  className={styled.size}
+                  href="https://github.com/Rushikesh2503/zoomCarProj"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  className={styled.size}
+                  href="https://compassionate-curie-bac97b.netlify.app/"
+                >
+                  <i class="fas fa-external-link-alt"></i>
                 </a>
               </div>
             </div>
@@ -56,11 +141,10 @@ const Project = () => {
             <div className={styled.rightDivSub}>
               <h2 className={styled.color}>Start Engine Website</h2>
               <p>
-                Start Engine is a website owned and operated by StartEngine Crowdfunding.It allows you to Invest.
+                Start Engine is a website owned and operated by StartEngine
+                Crowdfunding.It allows you to Invest.
               </p>
-              <h5 className={styled.color}>
-                React || JavaScript || CSS
-              </h5>
+              <h5 className={styled.color}>React || JavaScript || CSS</h5>
               <div className={styled.downDiv}>
                 <a
                   className={styled.size}
@@ -72,41 +156,7 @@ const Project = () => {
                   className={styled.size}
                   href="https://startenginerb-rushikesh2503.vercel.app/"
                 >
-                 <i class="fas fa-external-link-alt"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className={styled.gridss}>
-          <div className={styled.leftDiv}>
-            <img
-              className={styled.img}
-              src="https://user-images.githubusercontent.com/82999542/122533925-ac781500-d03f-11eb-94a6-db56adf13d0a.png"
-              alt="logo"
-            />
-          </div>
-          <div className={styled.rightDiv}>
-            <div className={styled.rightDivSub}>
-              <h2 className={styled.color}>Zoomcar Website</h2>
-              <p>
-                Self drive cars from Zoomcar have given customers more control, privacy, and freedom. Zoomcar allows you to book a car.
-              </p>
-              <h5 className={styled.color}>
-                CSS || HTML || JavaScript 
-              </h5>
-              <div className={styled.downDiv}>
-                <a
-                  className={styled.size}
-                  href="https://github.com/Rushikesh2503/zoomCarProj"
-                >
-                  <i class="fab fa-github"></i>
-                </a>
-                <a
-                  className={styled.size}
-                  href="https://compassionate-curie-bac97b.netlify.app/"
-                >
-                 <i class="fas fa-external-link-alt"></i>
+                  <i class="fas fa-external-link-alt"></i>
                 </a>
               </div>
             </div>
@@ -124,12 +174,10 @@ const Project = () => {
             <div className={styled.rightDivSub}>
               <h2 className={styled.color}>Motivational Quotes</h2>
               <p>
-                This page generates random quotes everytime on visit with different background Images.
+                This page generates random quotes everytime on visit with
+                different background Images.
               </p>
-              <h5 className={styled.color}>
-                {" "}
-                HTML || JavaScript || CSS
-              </h5>
+              <h5 className={styled.color}> HTML || JavaScript || CSS</h5>
               <div className={styled.downDiv}>
                 <a
                   className={styled.size}
@@ -142,7 +190,7 @@ const Project = () => {
                   className={styled.size}
                   href="https://rushikesh2503.github.io/random-quotes/"
                 >
-                 <i class="fas fa-external-link-alt"></i>
+                  <i class="fas fa-external-link-alt"></i>
                 </a>
               </div>
             </div>

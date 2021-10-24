@@ -22,7 +22,7 @@
   border-radius: 20px;
 }
 .leftDiv {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   text-align: left;
   z-index: 200;
@@ -40,7 +40,7 @@
   text-transform: uppercase;
 }
 .downDiv {
-  width: 200px;
+  width: 300px;
   margin: auto;
 }
 .rightDivSub > p {
