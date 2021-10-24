@@ -20,7 +20,9 @@ const Project = () => {
               <h2 className={styled.color}>StreamLine</h2>
               <p>
                 StreamLine provides opportunities to complete planning, selling
-                tickets, managing, and hosting the show for artists.
+                tickets, managing, and hosting the show for artists. We won the
+                Masai hackathon with this app😇. Built it in 48 hours with 3
+                more members.
               </p>
               <h5 className={styled.color}>
                 {" "}
