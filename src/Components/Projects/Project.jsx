@@ -53,6 +53,51 @@ const Project = () => {
             </div>
           </div>
         </div>
+        <div className={styled.gridss}>
+          <div className={styled.leftDiv}>
+            <img
+              className={styled.img}
+              src="https://camo.githubusercontent.com/7ba8f3a543e0f296b34287b577642462adee675465784a2cae53773db3ce128f/68747470733a2f2f692e6962622e636f2f387a6e393246502f6c6f67696e706167652e706e67"
+              alt="logo"
+            />
+          </div>
+          <div className={styled.rightDiv}>
+            <div className={styled.rightDivSub}>
+              <h2 className={styled.color}>Mini-Instagram-App</h2>
+              <p>
+                This project has been done in order to learn the basic working
+                of a website by implementing Frontend as well as Backend.
+                (Individual Project)
+              </p>
+              <h5 className={styled.color}>
+                {" "}
+                NodeJS || MongoDB || ExpressJS || React || JavaScript ||
+                Materialize CSS
+              </h5>
+              <div className={styled.downDiv}>
+                <a
+                  className={styled.size}
+                  href="https://github.com/Rushikesh2503/Mini-Insta-App"
+                >
+                  {" "}
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  className={styled.size}
+                  href="https://miniinstaapp-rushikesh2503.vercel.app/"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+                <a
+                  className={styled.size}
+                  href="https://miniinstaapp-rushikesh2503.vercel.app/"
+                >
+                  <i class="fas fa-play"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <div className={styled.gridss}>
           <div className={styled.leftDiv}>
