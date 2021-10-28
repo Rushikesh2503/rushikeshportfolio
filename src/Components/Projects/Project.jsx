@@ -90,7 +90,7 @@ const Project = () => {
                 </a>
                 <a
                   className={styled.size}
-                  href="https://miniinstaapp-rushikesh2503.vercel.app/"
+                  href="https://www.linkedin.com/posts/rushikeshbambadkar_thankyou-thankyoumasaischool-masai-activity-6859487515662012416-1qfj"
                 >
                   <i class="fas fa-play"></i>
                 </a>
