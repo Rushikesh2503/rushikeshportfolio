@@ -191,7 +191,7 @@ export default function Navbar() {
           </NavLink>
         </li>
         <li>
-          <a href="https://drive.google.com/file/d/1m4qhQcvzkw9AV7gvA8CRFSKYX4tE9tlK/view">
+          <a href="https://drive.google.com/file/d/1-2D6oLPIqSVbPMXfgpT_6XBD68szuq9Z/view?usp=sharing">
             Resume <i class="fas fa-download"></i>
           </a>
         </li>

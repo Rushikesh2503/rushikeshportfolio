@@ -98,7 +98,7 @@ const Skills = () => {
         <div className={styles.container1}>
           <div className={styles.inter}>
             <h2>
-              <i class="fas fa-microphone-alt"></i> Hosting an Events
+              <i class="fas fa-microphone-alt"></i> Hosting an Event
             </h2>
             <h2>
               <i class="fas fa-film"></i> Acting
