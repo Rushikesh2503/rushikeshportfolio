@@ -51,7 +51,7 @@ const Achievements = () => {
           <Grid item xs>
             <Typography>
               Token of appreciation award in National level FKDC 2017 (Organized
-              by F.M.A.E.) at Bangalore
+              by F.M.A.E.) at Bangalore.
             </Typography>
           </Grid>
         </Grid>
@@ -65,7 +65,7 @@ const Achievements = () => {
           </Grid>
           <Grid item xs>
             <Typography>
-              Best Publicity Coordinatorin Vidyotan 2018 Techfest.
+              Best Publicity Coordinator in Vidyotan 2018 Techfest.
             </Typography>
           </Grid>
         </Grid>
@@ -79,7 +79,7 @@ const Achievements = () => {
           </Grid>
           <Grid item xs>
             <Typography>
-              Event coordinator in Techfest ScrapShop (2016-17)
+              Event coordinator in Techfest ScrapShop (2016-17) .
             </Typography>
           </Grid>
         </Grid>
@@ -93,7 +93,7 @@ const Achievements = () => {
           </Grid>
           <Grid item xs>
             <Typography>
-              Team-Member in an eventContraption.(Techfest)
+              Team-Member in an event Contraption. (Techfest)
             </Typography>
           </Grid>
         </Grid>

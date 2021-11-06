@@ -25,9 +25,9 @@ const Skills = () => {
           </div>
           <div>
             <p>
-              Energetic, highly motivated and passionate Developer.Hardworking
-              Individual with a great learning curve.Loves to solve real life
-              problems .Looking for an opportunity to enhance knowledge and
+              Energetic, highly motivated, and passionate developer. Hardworking
+              individual with a great learning curve. Loves to solve real-life
+              problems. Looking for an opportunity to enhance knowledge and
               skills.
             </p>
           </div>
